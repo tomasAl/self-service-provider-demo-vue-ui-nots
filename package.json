@@ -1,0 +1,32 @@
+{
+  "name": "@rc-ses/self-service-provider-demo-vue-ui-nots",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "start": "vue-cli-service serve --port 9104",
+    "start:standalone": "vue-cli-service serve --mode standalone --port 9104"
+  },
+  "dependencies": {
+    "core-js": "^3.35.0",
+    "pinia": "^2.1.7",
+    "single-spa-vue": "^2.1.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuetify": "^3.5.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^18.19.8",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.4.27",
+    "@vue/test-utils": "^2.4.3",
+    "jsdom": "^23.0.1",
+    "npm-run-all2": "^6.1.1",
+    "prettier": "^3.0.3",
+    "vue-cli-plugin-single-spa": "~3.3.0"
+  }
+}

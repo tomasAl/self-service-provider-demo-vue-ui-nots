@@ -1,4 +1,4 @@
-# self service provider demo vue ui noTS
+# self service provider demo vue ui
 
 
 

@@ -1,0 +1,54 @@
+/*
+ * @MICROFRONTEND
+ *
+ * Minimali būtina TypeScript konfigūracija.
+ * Privalomos ir labai svarbios yra nurodytos
+ * `"esModuleInterop": true` bei `"moduleResolution": "node"`
+ * reikšmės.
+ */
+ {
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "webpack-env"
+    ],
+    "typeRoots": [
+      "src/@types"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/@types/**/*",
+    "src/main.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
